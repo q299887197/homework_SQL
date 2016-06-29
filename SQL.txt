@@ -1,0 +1,28 @@
+create database work;
+use work;
+
+-- 建立資料表
+create table sql_work
+(
+  id int auto_increment primary key,
+  name char(10) null,
+  email varchar(30) null,
+  phone varchar(30) null,
+  income varchar(30) null,
+  expenditure varchar(30) null
+);
+
+insert into Lab (data) values (100);
+INSERT INTO `table`(`id`,`name`) VALUES ( '12' , 'stanley' );
+
+
+insert into sql_work
+  (id, name, email, phone , income , expenditure)
+  values (1, 'Bob_chen', 'q29887197@gmail.com', '0983275426','9000','5000');
+insert into sql_work
+  (id, name, email, phone , income , expenditure)
+  values (2, 'DoReMi', 'abcdefg@gmail.com', '2882-5252','7500','4000');
+insert into sql_work
+  (id, name, email, phone , income , expenditure)
+  values (3, 'Jack_lai', 'yyyyso@gmail.com', '0800092000','6660','3500');
+  
