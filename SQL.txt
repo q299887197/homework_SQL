@@ -1,4 +1,6 @@
 create database work;
+
+-- 切換
 use work;
 
 -- 建立資料表
@@ -11,11 +13,7 @@ create table sql_work
   income varchar(30) null,
   expenditure varchar(30) null
 );
-
-insert into Lab (data) values (100);
-INSERT INTO `table`(`id`,`name`) VALUES ( '12' , 'stanley' );
-
-
+-- 建立資料三個
 insert into sql_work
   (id, name, email, phone , income , expenditure)
   values (1, 'Bob_chen', 'q29887197@gmail.com', '0983275426','9000','5000');
